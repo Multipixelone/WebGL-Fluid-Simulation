@@ -155,7 +155,7 @@ function pointerPrototype () {
     this.dy = 0;
     this.down = false;
     this.moved = false;
-    this.color = [30, 0, 300];
+    this.color = [0, 0, 0]; // 30, 0, 300
 }
 
 pointers.push(new pointerPrototype());
